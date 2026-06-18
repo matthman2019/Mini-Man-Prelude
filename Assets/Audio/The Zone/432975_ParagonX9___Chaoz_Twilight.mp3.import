@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bidspatcvo8lf"
+path="res://.godot/imported/432975_ParagonX9___Chaoz_Twilight.mp3-83a64b032e3e8df07ce152a71dd1d729.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/The Zone/432975_ParagonX9___Chaoz_Twilight.mp3"
+dest_files=["res://.godot/imported/432975_ParagonX9___Chaoz_Twilight.mp3-83a64b032e3e8df07ce152a71dd1d729.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dv8tphlqq7q6k"
+path="res://.godot/imported/1-05 Item Acquisition Fanfare.mp3-5b6e7269a2004d0af56afbbe41449794.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/sfx/1-05 Item Acquisition Fanfare.mp3"
+dest_files=["res://.godot/imported/1-05 Item Acquisition Fanfare.mp3-5b6e7269a2004d0af56afbbe41449794.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

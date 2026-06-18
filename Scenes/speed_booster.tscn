@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dlarx6osmcfeu"]
+
+[ext_resource type="Texture2D" uid="uid://c7wqs40v7nien" path="res://Assets/Images/speedBooster.svg" id="1_wyohx"]
+[ext_resource type="Script" uid="uid://bdeb1m4x4v7ux" path="res://Scenes/Collectible.gd" id="2_iltmj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_grg3l"]
+size = Vector2(512, 512)
+
+[node name="SpeedBooster" type="Sprite2D" unique_id=433619404]
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_wyohx")
+script = ExtResource("2_iltmj")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1744199352]
+collision_layer = 8
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=70987088]
+shape = SubResource("RectangleShape2D_grg3l")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

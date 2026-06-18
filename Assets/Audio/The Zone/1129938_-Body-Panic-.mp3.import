@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d34tkrifa53wg"
+path="res://.godot/imported/1129938_-Body-Panic-.mp3-e545653790addaafdf9dbe45ca28db17.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/The Zone/1129938_-Body-Panic-.mp3"
+dest_files=["res://.godot/imported/1129938_-Body-Panic-.mp3-e545653790addaafdf9dbe45ca28db17.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
