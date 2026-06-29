@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7wqs40v7nien"
-path="res://.godot/imported/speedBooster.svg-97d577679d85587a647d27ca25dc5fdc.ctex"
+uid="uid://bdvpjqulcn2pq"
+path="res://.godot/imported/fireSuit.svg-c202db3e4409702e4d3030041546e427.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/speedBooster.svg"
-dest_files=["res://.godot/imported/speedBooster.svg-97d577679d85587a647d27ca25dc5fdc.ctex"]
+source_file="res://Assets/Images/powerups/fireSuit.svg"
+dest_files=["res://.godot/imported/fireSuit.svg-c202db3e4409702e4d3030041546e427.ctex"]
 
 [params]
 

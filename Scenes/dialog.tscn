@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://ce7uiaq3jd2ar"]
+
+[ext_resource type="Script" uid="uid://bnvw6p3xa0aii" path="res://Scenes/dialogPanelContainer.gd" id="1_irs7l"]
+[ext_resource type="Texture2D" uid="uid://dw3pdo5be2bb8" path="res://miniicon.png" id="2_edf0l"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=850405962]
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=10209380]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 700.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_irs7l")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer" unique_id=394815997]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer/HBoxContainer" unique_id=1848366965]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/HBoxContainer/MarginContainer" unique_id=222444751]
+layout_mode = 2
+texture = ExtResource("2_edf0l")
+expand_mode = 3
+
+[node name="MarginContainer2" type="MarginContainer" parent="PanelContainer/HBoxContainer" unique_id=328662022]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/HBoxContainer/MarginContainer2" unique_id=1835952354]
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PanelContainer/HBoxContainer/MarginContainer2/VBoxContainer" unique_id=498744377]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+text = "Hello! My name is Deo and I am [color=red] NOT LOCKED IN. [/color]"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/HBoxContainer/MarginContainer2/VBoxContainer" unique_id=250151728]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="PanelContainer/HBoxContainer/MarginContainer2/VBoxContainer/HBoxContainer" unique_id=1856071933]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Yes"
+
+[node name="Button2" type="Button" parent="PanelContainer/HBoxContainer/MarginContainer2/VBoxContainer/HBoxContainer" unique_id=1040123317]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "No"

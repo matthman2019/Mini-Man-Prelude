@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dlarx6osmcfeu"]
 
-[ext_resource type="Texture2D" uid="uid://c7wqs40v7nien" path="res://Assets/Images/speedBooster.svg" id="1_wyohx"]
+[ext_resource type="Texture2D" uid="uid://c7wqs40v7nien" path="res://Assets/Images/powerups/speedBooster.svg" id="1_wyohx"]
 [ext_resource type="Script" uid="uid://bdeb1m4x4v7ux" path="res://Scenes/Collectible.gd" id="2_iltmj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_grg3l"]
